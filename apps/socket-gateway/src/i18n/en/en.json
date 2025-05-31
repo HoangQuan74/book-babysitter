@@ -1,0 +1,27 @@
+{
+  "NOT_FOUND": "Not found",
+  "NOT_FOUND_ACCOUNT": "Account not found. Please check again.",
+
+  "BAD_REQUEST": "Bad request",
+  "FORBIDDEN": "Forbidden",
+
+  "UN_AUTHORIZED":"Unauthorized",
+  "UN_ACTIVE": "Un active",
+  "EMAIL_ALREADY_EXISTS": "Email already exists",
+  "OTP_NOT_ALLOWED": "Cannot send OTP yet",
+  "ACCOUNT_EXPIRED": "Account expired",
+  "PASSWORD_NOT_MATCH": "Password not match",
+
+  "LANGUAGE_NOT_SUPPORTED": "Language not supported",
+  "LANGUAGE_NOT_VALID": "Language not valid",
+  "MISSING_LANG_CODE": "Missing language code",
+  "MISSING_CURRENCY_INFO": "Missing currency info",
+  "INVALID_CURRENCY_INFO": "Invalid currency info",
+  "EMAIL_AND_OTP_NOT_MATCH": "Email and OTP not match",
+  "RATING_NOT_VALID": "Rating not valid",
+  "MAX_INTRODUCTION_IMAGE": "Max introduction image",
+   "MAX_INTRODUCTION_BANNER": "Max introduction banner",
+
+  "CANNOT_UPDATED": "Can not update",
+  "REQUEST_IS_SUCCESS": "Request is success"
+}

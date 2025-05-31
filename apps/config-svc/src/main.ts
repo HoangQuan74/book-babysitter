@@ -1,0 +1,17 @@
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+import { EService } from '@lib/common/enums';
+import { MicroserviceOptions } from '@nestjs/microservices';
+import { ConfigService } from '@nestjs/config';
+
+async function bootstrap() {
+  const appName = EService.CONFIG;
+  const app = await NestFactory.create(AppModule);
+  const configService = app.get(ConfigService);
+  const config = configService.get(appName);
+
+  app.init();
+  app.connectMicroservice<MicroserviceOptions>(config);
+  app.startAllMicroservices();
+}
+bootstrap();

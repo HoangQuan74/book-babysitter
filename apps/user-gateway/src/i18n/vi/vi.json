@@ -1,0 +1,40 @@
+{
+  "NOT_FOUND": "Không tìm thấy",
+  "NOT_FOUND_ACCOUNT": "Không tìm thấy tài khoản. Vui lòng kiểm tra lại.",
+
+  "OTP_NOT_NOT_CORRECT":"Mã xác nhận không đúng",
+
+  "BAD_REQUEST": "Yêu cầu không hợp lệ",
+  "FORBIDDEN": "Không có quyền truy cập",
+
+  "UN_AUTHORIZED": "Không có quyền truy cập",
+  "UN_ACTIVE": "Tài khoản chưa kích hoạt",
+  "EMAIL_ALREADY_EXISTS": "Email đã tồn tại",
+  "EMAIL_NOT_REGISTERED": "Email chưa được đăng ký",
+  "OTP_NOT_ALLOWED": "Không thể gửi OTP lúc này",
+  "EMAIL_AND_OTP_NOT_MATCH": "Email và OTP không khớp",
+  "ACCOUNT_EXPIRED": "Tài khoản đã hết hạn",
+  "PASSWORD_NOT_MATCH": "Mật khẩu không chính xác",
+  "ACCOUNT_IS_DELETED": "Hội viên đã xóa tài khoản",
+  "ROLE_NOT_VALID": "Tài khoản của bạn hiện không có quyền truy cập",
+
+  "LANGUAGE_NOT_SUPPORTED": "Ngôn ngữ không được hỗ trợ",
+  "LANGUAGE_NOT_VALID": "Ngôn ngữ không hợp lệ",
+  "MISSING_LANG_CODE": "Thiếu mã ngôn ngữ",
+  "MISSING_CURRENCY_INFO": "Thiếu thông tin tiền tệ",
+  "INVALID_CURRENCY_INFO": "Thông tin tiền tệ không hợp lệ",
+  "RATING_NOT_VALID": "Đánh giá không hợp lệ",
+  "MAX_INTRODUCTION_IMAGE": "Đã đạt số lượng tối đa ảnh giới thiệu",
+  "MAX_INTRODUCTION_BANNER": "Đã đạt số lướng tối đa ảnh banner",
+  "CURRENCY_CANT_BE_DELETED": "Đây là loại tiền tệ mà sitter hiện đang sử dụng. không thể xóa được.",
+
+  "CANNOT_UPDATED": "Không thể cập nhật",
+  "REQUEST_IS_SUCCESS": "Yêu cầu thành công",
+
+  "MINIMUM_WORKING_TIME": "Số giờ ít hơn thời gian làm việc tối thiểu.",
+  "BOOKING_TIME_NOT_VALID": "Thời gian đặt lịch không hợp lệ",
+  "BABY_SITTER_NOT_ALLOW_BOOKING": "Tài khoản này không được phép nhận đặt lịch",
+  "BOOKING_NOT_FOUND": "Không tìm thấy đặt lịch",
+  "BOOKING_NOT_PENDING": "Không thể xác nhận đặt lịch",
+  "BOOKING_CANT_BE_CANCEL": "Không thể hủy đặt lịch"
+}

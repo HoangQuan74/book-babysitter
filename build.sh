@@ -1,0 +1,12 @@
+git diff --quite HEAD origin/develop -- ./apps/auth-svc || docker build --build-arg="APP=auth-svc" -f Dockerfile -t auth-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/config-svc || docker build --build-arg="APP=config-svc" -f Dockerfile -t config-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/notify-svc || docker build --build-arg="APP=notify-svc" -f Dockerfile -t notify-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/post-svc || docker build --build-arg="APP=post-svc" -f Dockerfile -t post-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/chat-svc || docker build --build-arg="APP=chat-svc" -f Dockerfile -t chat-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/point-svc || docker build --build-arg="APP=point-svc" -f Dockerfile -t point-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/report-svc || docker build --build-arg="APP=report-svc" -f Dockerfile -t report-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/booking-svc || docker build --build-arg="APP=booking-svc" -f Dockerfile -t booking-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/cron-svc || docker build --build-arg="APP=cron-svc" -f Dockerfile -t cron-service:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/admin-gateway || docker build --build-arg="APP=admin-gateway" -f Dockerfile -t admin-gateway:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/user-gateway || docker build --build-arg="APP=user-gateway" -f Dockerfile -t user-gateway:0.0.1 .
+git diff --quite HEAD origin/develop -- ./apps/socket-gateway || docker build --build-arg="APP=socket-gateway" -f Dockerfile -t socket-gateway:0.0.1 .

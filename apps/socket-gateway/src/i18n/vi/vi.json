@@ -1,0 +1,27 @@
+{
+  "NOT_FOUND": "Không tìm thấy",
+  "NOT_FOUND_ACCOUNT": "Không tìm thấy tài khoản. Vui lòng kiểm tra lại.",
+
+  "BAD_REQUEST": "Yêu cầu không hợp lệ",
+  "FORBIDDEN": "Không có quyền truy cập",
+
+  "UN_AUTHORIZED": "Không có quyền truy cập",
+  "UN_ACTIVE": "Tài khoản chưa kích hoạt",
+  "EMAIL_ALREADY_EXISTS": "Email đã tồn tại",
+  "OTP_NOT_ALLOWED": "Không thể gửi OTP lúc này",
+  "EMAIL_AND_OTP_NOT_MATCH": "Email và OTP không khớp",
+  "ACCOUNT_EXPIRED": "Tài khoản đã hết hạn",
+  "PASSWORD_NOT_MATCH": "Mật khẩu không chính xác",
+
+  "LANGUAGE_NOT_SUPPORTED": "Ngôn ngữ không được hỗ trợ",
+  "LANGUAGE_NOT_VALID": "Ngôn ngữ không hợp lệ",
+  "MISSING_LANG_CODE": "Thiếu mã ngôn ngữ",
+  "MISSING_CURRENCY_INFO": "Thiếu thông tin tiền tệ",
+  "INVALID_CURRENCY_INFO": "Thông tin tiền tệ không hợp lệ",
+  "RATING_NOT_VALID": "Đánh giá không hợp lệ",
+  "MAX_INTRODUCTION_IMAGE": "Đã đạt số lượng tối đa ảnh giới thiệu",
+   "MAX_INTRODUCTION_BANNER": "Đã đạt số lướng tối đa ảnh banner",
+
+  "CANNOT_UPDATED": "Không thể cập nhật",
+  "REQUEST_IS_SUCCESS": "Yêu cầu thành công"
+}

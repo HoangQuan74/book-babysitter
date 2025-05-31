@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  auth-service:
+    container_name: auth-service
+    build:
+      context: auth-service
+      dockerfile: Dockerfile
+    ports:
+      - 3006:3006
+    env_file:
+      - .env
+    restart: always
+    command: [ "yarn", "start:dev", "auth-svc" ]

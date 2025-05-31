@@ -1,0 +1,40 @@
+{
+  "NOT_FOUND": "Not found",
+  "NOT_FOUND_ACCOUNT": "Account not found. Please check again.",
+
+  "OTP_NOT_NOT_CORRECT": "OTP not correct",
+
+  "BAD_REQUEST": "Bad request",
+  "FORBIDDEN": "Forbidden",
+
+  "UN_AUTHORIZED":"Unauthorized",
+  "UN_ACTIVE": "Un active",
+  "EMAIL_ALREADY_EXISTS": "Email already exists",
+  "EMAIL_NOT_REGISTERED": "Email not registered",
+  "OTP_NOT_ALLOWED": "Cannot send OTP yet",
+  "ACCOUNT_EXPIRED": "Account expired",
+  "PASSWORD_NOT_MATCH": "Password not match",
+  "ACCOUNT_IS_DELETED": "Account is deleted",
+  "ROLE_NOT_VALID": "Your account is currently not accessible",
+
+  "LANGUAGE_NOT_SUPPORTED": "Language not supported",
+  "LANGUAGE_NOT_VALID": "Language not valid",
+  "MISSING_LANG_CODE": "Missing language code",
+  "MISSING_CURRENCY_INFO": "Missing currency info",
+  "INVALID_CURRENCY_INFO": "Invalid currency info",
+  "EMAIL_AND_OTP_NOT_MATCH": "Email and OTP not match",
+  "RATING_NOT_VALID": "Rating not valid",
+  "MAX_INTRODUCTION_IMAGE": "Max introduction image",
+  "MAX_INTRODUCTION_BANNER": "Max introduction banner",
+  "CURRENCY_CANT_BE_DELETED": "This is the currency the sitter is currently using. cannot be deleted.",
+
+  "CANNOT_UPDATED": "Can not update",
+  "REQUEST_IS_SUCCESS": "Request is success",
+  
+  "MINIMUM_WORKING_TIME": "Hours less than minimum working hours.",
+  "BOOKING_TIME_NOT_VALID": "Booking time not valid",
+  "BABY_SITTER_NOT_ALLOW_BOOKING": "Baby sitter not allow booking",
+  "BOOKING_NOT_FOUND": "Booking not found",
+  "BOOKING_NOT_PENDING": "Booking not pending",
+  "BOOKING_CANT_BE_CANCEL": "Booking can not be cancel"
+}
